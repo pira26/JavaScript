@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 100vh;
+  background-image: url("https://static.pexels.com/photos/36090/pexels-photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.key {
+  border: 0.4rem solid #000;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  font-size: 1.5rem;
+  padding: 1rem 0.5rem;
+  transition: all .07s ease;
+  width: 10rem;
+  text-align: center;
+  color: #fff;
+  background: rgba(0,0,0,0.4);
+  text-shadow: 0 0 0.5rem #000;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+kbd {
+  display: block;
+  font-size: 4rem;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
