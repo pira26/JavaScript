@@ -1,0 +1,21 @@
+html {
+  color: #fff;
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+}
+
+.hero {
+  display:flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+}
+
+h1 {
+  font-size: 100px;
+}
